@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    tools:context=".TeacherExpandClass">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#2C2C2C"
+        app:contentPadding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtIClassName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Class Name"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInstructorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="74dp"
+            android:text="Instructor's Name"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/txtICCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="44dp"
+            android:text="Class Code"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="74dp"
+            android:text="Instructor :"
+            android:textColor="#FFFFFF" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/btnTeacherAssessment"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#7C7C7C"
+        android:scaleType="fitXY"
+        android:tint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:srcCompat="@drawable/icon_folder" />
+
+    <ImageButton
+        android:id="@+id/btnTeacherQuiz"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#7C7C7C"
+        android:scaleType="fitXY"
+        android:tint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:srcCompat="@drawable/icon_class" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assessments"
+        android:textColor="#505050"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnTeacherAssessment"
+        app:layout_constraintStart_toStartOf="@+id/btnTeacherAssessment"
+        app:layout_constraintTop_toBottomOf="@+id/btnTeacherAssessment" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quizzes"
+        android:textColor="#505050"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnTeacherQuiz"
+        app:layout_constraintStart_toStartOf="@+id/btnTeacherQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/btnTeacherQuiz" />
+
+    <ImageButton
+        android:id="@+id/btnTeacherExam"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#7C7C7C"
+        android:scaleType="fitXY"
+        android:tint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/text" />
+
+    <ImageButton
+        android:id="@+id/btnTeacherEnrolled"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#7C7C7C"
+        android:scaleType="fitXY"
+        android:tint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/icon_person" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Examinations"
+        android:textColor="#505050"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnTeacherExam"
+        app:layout_constraintStart_toStartOf="@+id/btnTeacherExam"
+        app:layout_constraintTop_toBottomOf="@+id/btnTeacherExam" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Students Enrolled"
+        android:textColor="#505050"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnTeacherEnrolled"
+        app:layout_constraintStart_toStartOf="@+id/btnTeacherEnrolled"
+        app:layout_constraintTop_toBottomOf="@+id/btnTeacherEnrolled" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

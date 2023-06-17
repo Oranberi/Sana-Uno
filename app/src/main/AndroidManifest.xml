@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SanaUno"
+        tools:targetApi="31">
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterInfo"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherComputerGrade"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherViewEnrolledStudent"
+            android:exported="false" />
+        <activity
+            android:name=".StudentViewExam"
+            android:exported="false" />
+        <activity
+            android:name=".StudentViewQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".StudentViewAssessment"
+            android:exported="false" />
+        <activity
+            android:name=".EditWork"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherViewExam"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherViewQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".AddWork"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherViewAssessment"
+            android:exported="false" />
+        <activity
+            android:name=".StudentExpandClass"
+            android:exported="false" />
+        <activity
+            android:name=".StudentAddClass"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDash"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherExpandClass"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherViewAssignment"
+            android:exported="false" />
+        <activity
+            android:name=".AddInstructorClass"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherViewStudent"
+            android:exported="false" />
+        <activity
+            android:name=".ViewClassTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherDash"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Choose"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SanaUno</string>
+
+    <string-array name="sem">
+        <item>Select Semester</item>
+        <item>1st Sem</item>
+        <item>2nd Sem</item>
+    </string-array>
+</resources>
