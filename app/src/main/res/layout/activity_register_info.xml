@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d9d9d9"
+    android:backgroundTint="#d9d9d9"
     tools:context=".RegisterInfo">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -15,6 +17,8 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:hint="First Name"
+        android:textColorHint="#7E7E7E"
+        app:boxStrokeColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView22">
@@ -22,18 +26,21 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtEditFname"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:id="@+id/txtLnameLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:hint="Last Name"
+        android:textColorHint="#7E7E7E"
+        app:boxStrokeColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtFnameLayout">
@@ -41,7 +48,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtEditLname"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -53,6 +61,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:hint="LRN / ID Number"
+        android:textColorHint="#7E7E7E"
+        app:boxStrokeColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtLnameLayout">
@@ -61,7 +71,8 @@
             android:id="@+id/txtEditLrnID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number" />
+            android:inputType="number"
+            android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

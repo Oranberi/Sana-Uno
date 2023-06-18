@@ -130,6 +130,5 @@ public class StudentDash extends AppCompatActivity {
         bundle.putInt("lrn",lrn);
         intent.putExtras(bundle);
         startActivity(intent);
-        finish();
     }
 }

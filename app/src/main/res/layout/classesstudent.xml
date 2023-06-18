@@ -26,7 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="30dp"
-        android:text="Class Name" />
+        android:text="Class Name"
+        android:textColor="#535353" />
 
     <TextView
         android:id="@+id/txtStuSemester"
@@ -34,5 +35,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="50dp"
-        android:text="Semester" />
+        android:text="Semester"
+        android:textColor="#535353" />
 </RelativeLayout>

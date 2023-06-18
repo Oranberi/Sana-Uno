@@ -93,6 +93,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:text="Hello, Teacher"
+        android:textColor="#686868"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

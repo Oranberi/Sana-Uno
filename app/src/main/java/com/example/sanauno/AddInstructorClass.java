@@ -55,7 +55,7 @@ public class AddInstructorClass extends AppCompatActivity {
                 } else {
                     instructorManager.openDB();
                     icInfo.setInstructor(uInfo.getName());
-                    icInfo.setClasscode(txtEnterCCode.getText().toString());
+                    icInfo.setClasscode(txtEnterCCode.getText().toString().toUpperCase());
                     icInfo.setClassname(txtEnterCName.getText().toString());
 
                     instructorManager.insertInstructorClass(icInfo.getClasscode(), icInfo.getInstructor(), icInfo.getClassname(), icInfo.getSemester());

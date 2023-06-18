@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.example.sanauno.database.AssessManager;
@@ -27,7 +28,8 @@ public class AddWork extends AppCompatActivity {
 
     TextInputLayout txtWorkTitleLayout, txtWorkItemLayout;
     EditText txtAssessmentTitle, txtAssessmentItem;
-    Button btnAddAssessNow, btnCancelWork;
+    Button btnAddAssessNow;
+    ImageButton btnCancelWork;
 
 
     @Override

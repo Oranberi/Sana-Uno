@@ -49,7 +49,9 @@ public class InstructorManager {
         //int count = cursor.getCount();
         if(cursor.moveToFirst()){
             do{
-                insClass.add(cursor.getString(0));
+                if(!insClass.contains(cursor.getString(0))){
+                    insClass.add(cursor.getString(0));
+                }
             } while (cursor.moveToNext());
         }
         return insClass;

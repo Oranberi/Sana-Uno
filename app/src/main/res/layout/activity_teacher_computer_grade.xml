@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d9d9d9"
     tools:context=".TeacherComputerGrade">
 
     <androidx.cardview.widget.CardView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
+        app:cardBackgroundColor="#FFFFFF"
         app:contentPadding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +104,7 @@
                 android:id="@+id/btnSaveGrade"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:backgroundTint="#000000"
                 android:insetTop="10dp"
@@ -117,7 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:layout_marginEnd="40dp"
+                android:layout_marginEnd="32dp"
                 android:backgroundTint="#8F8F8F"
                 android:insetTop="10dp"
                 android:insetBottom="10dp"

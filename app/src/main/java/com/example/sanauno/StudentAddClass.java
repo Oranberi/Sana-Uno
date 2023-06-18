@@ -62,8 +62,15 @@ public class StudentAddClass extends AppCompatActivity {
 
             }
         });
+        btnCancelEnroll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
     }
+
 
     public void spinnerData(){
 

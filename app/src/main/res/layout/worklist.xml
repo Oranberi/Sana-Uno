@@ -27,7 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="30dp"
-        android:text="Class Name" />
+        android:text="Class Name"
+        android:textColor="#535353" />
 
     <TextView
         android:id="@+id/txtStudentScore"
@@ -35,5 +36,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="285dp"
         android:layout_marginTop="15dp"
-        android:text="Score:" />
+        android:text="Score:"
+        android:textColor="#535353" />
 </RelativeLayout>
