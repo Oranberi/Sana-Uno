@@ -34,7 +34,6 @@ public class TeacherViewQuiz extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         int ins_id = bundle.getInt("ins_ID");
         int id = ins_id;
-        Toast.makeText(this, ""+ins_id, Toast.LENGTH_SHORT).show();
 
         qManager = new QuizManager(this);
         qManager.openDB();

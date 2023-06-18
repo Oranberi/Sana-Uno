@@ -48,7 +48,6 @@ public class AddWork extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         int insID = bundle.getInt("insID");
         int work = bundle.getInt("work");
-        Toast.makeText(this, ""+work, Toast.LENGTH_SHORT).show();
 
         btnAddAssessNow.setOnClickListener(new View.OnClickListener() {
             @Override

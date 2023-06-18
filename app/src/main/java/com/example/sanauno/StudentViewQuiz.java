@@ -28,7 +28,6 @@ public class StudentViewQuiz extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         int insID = bundle.getInt("insID");
         int lrn = bundle.getInt("lrn");
-        Toast.makeText(this, lrn + " | " + insID, Toast.LENGTH_SHORT).show();
 
         qManager =  new QuizManager(this);
         qManager.openDB();
