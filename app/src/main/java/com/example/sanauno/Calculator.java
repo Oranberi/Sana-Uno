@@ -155,8 +155,10 @@ public class Calculator extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String expression = txtInput.getText().toString();
-                String newExpression = expression.substring(0,expression.length()-1);
-                txtInput.setText(newExpression);
+                if (expression.length() != 0){
+                    String newExpression = expression.substring(0,expression.length()-1);
+                    txtInput.setText(newExpression);
+                }
             }
         });
         btnClear.setOnClickListener(new View.OnClickListener() {
