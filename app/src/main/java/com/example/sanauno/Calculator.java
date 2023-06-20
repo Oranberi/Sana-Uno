@@ -44,6 +44,7 @@ public class Calculator extends AppCompatActivity {
         btnDot = findViewById(R.id.btnDot);
         btnGoBack = findViewById(R.id.btnGoBack);
         txtInput = findViewById(R.id.txtInput);
+        txtInput.setEnabled(false);
         txtOuput = findViewById(R.id.txtOuput);
 
         btnOne.setOnClickListener(new View.OnClickListener() {
